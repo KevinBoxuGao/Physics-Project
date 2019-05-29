@@ -340,6 +340,7 @@ template {
 /* colours */
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -420,10 +421,23 @@ nav {
   background: black;
 }
 
-.nav-link {
+.navbar-brand {
+  color: lightgrey;
+}
+.navbar-brand:hover {
   color: white;
 }
 
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: grey;
+}
+
+.navbar-toggler-icon:hover {
+  color: grey;
+}
 .navbar-toggler-icon .fa-bars {
   color: white;
   font-size: 18px;
@@ -458,6 +472,10 @@ nav {
   bottom: 10%;
   font-size: 36px;
   color: white;
+}
+
+.components {
+  padding: 0;
 }
 
 #history {
