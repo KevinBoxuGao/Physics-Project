@@ -6,7 +6,6 @@
     }
 }
 
-
 .timeline {
     position: relative;
     max-width: 1200px;
@@ -120,4 +119,9 @@
     .right {
         left: 0%;
     }
+}
+
+.timeline_image {
+    max-width: 100%;
+    height: auto;
 }
