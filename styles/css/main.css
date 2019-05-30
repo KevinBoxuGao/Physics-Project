@@ -443,6 +443,10 @@ nav {
   font-size: 18px;
 }
 
+#history {
+  padding: 1em 0;
+}
+
 /* The hero image */
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imgs/hero.jpg");
@@ -474,8 +478,50 @@ nav {
   color: white;
 }
 
+#description {
+  padding: 1em 0;
+}
+
+.description_image {
+  max-width: 100%;
+  height: auto;
+}
+
+#components {
+  background: #fafafa;
+  padding: 1em 0;
+}
+
+.components_title {
+  text-align: center;
+}
+
 .components {
   padding: 0;
+}
+
+.components_image {
+  max-width: 100%;
+}
+
+#explanation {
+  padding: 1em 0;
+}
+
+.fundamental1, .fundamental2 {
+  padding: 1em 0;
+}
+
+#uses {
+  padding: 1em 0;
+  background-color: #fafafa;
+}
+
+.col-centered {
+  border-style: solid;
+  border-width: 3px;
+  float: none;
+  margin: 0 auto;
 }
 
 #history {

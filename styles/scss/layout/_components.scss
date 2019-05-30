@@ -1,3 +1,17 @@
+#components {
+    background: $secondary-background;
+    padding: 1em 0;
+}
+
+.components_title {
+    text-align: center;
+}
+
 .components {
     padding: 0;
 }
+
+.components_image {
+    max-width: 100%;
+}
+
