@@ -488,7 +488,7 @@ nav {
 }
 
 #components {
-  background: #fafafa;
+  background: #EEEEEE;
   padding: 1em 0;
 }
 
@@ -512,9 +512,13 @@ nav {
   padding: 1em 0;
 }
 
+.general-statement {
+  margin: 4em 0;
+}
+
 #uses {
   padding: 1em 0;
-  background-color: #fafafa;
+  background-color: #EEEEEE;
 }
 
 .col-centered {
@@ -525,7 +529,7 @@ nav {
 }
 
 #history {
-  background-color: grey;
+  background-color: #AAAAAA;
 }
 #history .title {
   text-align: center;
